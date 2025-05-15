@@ -1,0 +1,13 @@
+[project]
+name = "python-projects"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "crypto>=1.4.1",
+    "fastapi[standard]>=0.115.12",
+    "jose>=1.0.0",
+    "passlib>=1.7.4",
+    "sqlalchemy>=2.0.41",
+]
